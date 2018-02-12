@@ -48,7 +48,7 @@
   font-style: normal; }
 
 @font-face {
-  font-family: 'MontserratLight';
+  font-family: 'Montserrat-Light';
   src: url("../fonts/Montserrat-Light.eot");
   src: url("../fonts/Montserrat-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light.ttf") format("truetype");
   font-weight: 300;
@@ -527,6 +527,7 @@ a {
     -ms-flex-negative: 0;
         flex-shrink: 0; }
     #main .left-part h1 {
+      font-family: Montserrat-Light;
       color: #1a171b;
       line-height: 31.2px;
       font-weight: 400;
@@ -824,6 +825,927 @@ a {
         #main .left-part .candidate-list-tempo li .detail-title div span.borders {
           border-left: 1px solid #ad9a88;
           border-right: 1px solid #ad9a88; }
+  #main .exitpoll-left .title-exitpoll h1 i {
+    font-family: Montserrat-Light;
+    font-size: 18px;
+    color: #244357;
+    letter-spacing: 0;
+    text-align: left;
+    font-style: normal;
+    margin-left: 15px; }
+  #main .exitpoll-left .title-exitpoll span {
+    font-family: Montserrat-Regular;
+    font-size: 11px;
+    color: #1a171b;
+    text-align: left;
+    margin-bottom: 30px;
+    display: block; }
+  #main .exitpoll-left .title-exitpoll p {
+    font-family: Montserrat-Bold;
+    font-size: 13px;
+    color: #244357;
+    margin-bottom: 10px; }
+  #main .exitpoll-left .title-exitpoll-table .title-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    height: 27px;
+    min-height: 27px;
+    border-top: 1px solid #244357;
+    border-bottom: 1px solid #244357; }
+    #main .exitpoll-left .title-exitpoll-table .title-row span {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      min-height: 15px;
+      padding: 0 105px;
+      font-family: Montserrat-SemiBold;
+      font-size: 11px;
+      color: #416077;
+      letter-spacing: 0;
+      line-height: 15.6px;
+      border-left: 1px solid #112531; }
+      #main .exitpoll-left .title-exitpoll-table .title-row span:first-child {
+        border: 0; }
+  #main .exitpoll-left .title-exitpoll-table > div {
+    min-height: 99px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: end;
+        justify-content: flex-end; }
+    #main .exitpoll-left .title-exitpoll-table > div div {
+      min-width: 257px;
+      border-left: 1px solid #112531; }
+      #main .exitpoll-left .title-exitpoll-table > div div:first-child {
+        border: 0; }
+        #main .exitpoll-left .title-exitpoll-table > div div:first-child span {
+          padding-left: 0; }
+      #main .exitpoll-left .title-exitpoll-table > div div:last-child .view-more {
+        padding-left: 24px; }
+      #main .exitpoll-left .title-exitpoll-table > div div span {
+        display: block;
+        font-family: Montserrat-Bold;
+        font-size: 11px;
+        color: #244357;
+        letter-spacing: 0;
+        line-height: 16px;
+        text-align: left;
+        padding-left: 24px; }
+        #main .exitpoll-left .title-exitpoll-table > div div span i {
+          font-style: normal;
+          font-family: Montserrat-Regular;
+          font-size: 11px;
+          color: #1a171b;
+          letter-spacing: 0;
+          line-height: 16px;
+          margin-left: 5px; }
+      #main .exitpoll-left .title-exitpoll-table > div div .view-more {
+        display: block;
+        font-family: Montserrat-Bold;
+        font-size: 13px;
+        color: #356e89;
+        letter-spacing: 0;
+        line-height: 15px;
+        margin-top: 25px; }
+        #main .exitpoll-left .title-exitpoll-table > div div .view-more:after {
+          content: '';
+          display: inline-block;
+          width: 6px;
+          height: 10px;
+          background: url(../images/arrow-right.png) no-repeat;
+          background-size: contain;
+          margin-left: 10px; }
+  #main .exitpoll-left .title-temporeale-table {
+    padding-bottom: 29px; }
+    #main .exitpoll-left .title-temporeale-table .title-row {
+      margin-bottom: 20px; }
+  #main .exitpoll-left .exitpoll-list-tempo li .detail-title img {
+    margin: 0 15px 0 0; }
+  #main .exitpoll-left .exitpoll-list-tempo li .detail-title h5 {
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    color: #416077;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: left; }
+  #main .exitpoll-left .exitpoll-list-tempo li .detail-title i {
+    display: none; }
+  #main .exitpoll-left .exitpoll-list-tempo li .detail-title div {
+    width: auto;
+    display: -ms-flexbox;
+    display: flex; }
+    #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span {
+      height: 24px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      padding: 0 23px;
+      letter-spacing: 0;
+      line-height: 17px;
+      text-align: center;
+      position: relative;
+      border-left: 1px solid #ad9a88;
+      font-family: Montserrat-SemiBold;
+      font-size: 15px;
+      color: #244357;
+      letter-spacing: 0;
+      text-align: center; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -35px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        font-family: Montserrat-Regular;
+        font-size: 11px;
+        color: #ad9a88;
+        letter-spacing: 0;
+        line-height: 15.6px;
+        text-align: center; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(1) {
+        font-family: Montserrat-SemiBold;
+        font-size: 12px;
+        color: #244357;
+        letter-spacing: 0;
+        text-align: center;
+        border: 0; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(3) {
+        font-family: Montserrat-SemiBold;
+        font-size: 12px;
+        color: #244357;
+        letter-spacing: 0;
+        text-align: center; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(1):before {
+        content: 'Exit poll'; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(2):before {
+        content: 'Stima seggi'; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(3):before {
+        content: 'Exit poll'; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(4):before {
+        content: 'Stima seggi'; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span.borders {
+        border-left: 1px solid #ad9a88;
+        border-right: 1px solid #ad9a88; }
+  #main .exitpoll-left .exitpoll-list-tempo li .detail-title-last {
+    -ms-flex-align: center !important;
+        align-items: center !important; }
+    #main .exitpoll-left .exitpoll-list-tempo li .detail-title-last h5 {
+      width: auto;
+      margin-bottom: 0;
+      min-width: 110px; }
+    #main .exitpoll-left .exitpoll-list-tempo li .detail-title-last div {
+      width: 100%; }
+  #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title {
+    border-top: 1px solid #244357;
+    padding: 8px 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+        align-items: flex-start;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    width: 100%; }
+    #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title p {
+      font-family: Montserrat-Bold;
+      font-size: 12px;
+      color: #244357;
+      letter-spacing: 0;
+      line-height: 15.6px; }
+    #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div {
+      margin-top: 18px; }
+      #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div span {
+        height: 24px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+        padding: 0 23px;
+        letter-spacing: 0;
+        line-height: 17px;
+        text-align: center;
+        position: relative;
+        border-left: 1px solid #ad9a88;
+        font-family: Montserrat-SemiBold;
+        font-size: 15px;
+        color: #244357;
+        letter-spacing: 0;
+        text-align: center; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div span:nth-child(1) {
+          font-family: Montserrat-SemiBold;
+          font-size: 12px;
+          color: #244357;
+          letter-spacing: 0;
+          text-align: center;
+          border: 0; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div span:nth-child(3) {
+          font-family: Montserrat-SemiBold;
+          font-size: 12px;
+          color: #244357;
+          letter-spacing: 0;
+          text-align: center; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div span:before {
+          top: -23px; }
+  #main .exitpoll-left .exitpoll-list-tempo li ul li {
+    border-width: 1px; }
+    #main .exitpoll-left .exitpoll-list-tempo li ul li:nth-child(2) {
+      border: 0; }
+    #main .exitpoll-left .exitpoll-list-tempo li ul li h5 {
+      font-family: Montserrat-Bold;
+      font-size: 16px;
+      color: #416077;
+      letter-spacing: 0;
+      line-height: 16px;
+      text-align: left;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
+    #main .exitpoll-left .exitpoll-list-tempo li ul li img {
+      width: 45px;
+      height: 45px;
+      margin: 0 15px 0 0; }
+    #main .exitpoll-left .exitpoll-list-tempo li ul li div {
+      width: 100%;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+      #main .exitpoll-left .exitpoll-list-tempo li ul li div span, #main .exitpoll-left .exitpoll-list-tempo li ul li div span:last-child {
+        height: 24px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+        padding: 0 23px;
+        letter-spacing: 0;
+        line-height: 17px;
+        text-align: center;
+        position: relative;
+        border-left: 1px solid #ad9a88;
+        font-family: Montserrat-SemiBold;
+        font-size: 15px;
+        color: #244357;
+        letter-spacing: 0;
+        text-align: center; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul li div span:nth-child(1), #main .exitpoll-left .exitpoll-list-tempo li ul li div span:last-child:nth-child(1) {
+          font-family: Montserrat-SemiBold;
+          font-size: 12px;
+          color: #244357;
+          letter-spacing: 0;
+          text-align: center;
+          border: 0; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul li div span:nth-child(3), #main .exitpoll-left .exitpoll-list-tempo li ul li div span:last-child:nth-child(3) {
+          font-family: Montserrat-SemiBold;
+          font-size: 12px;
+          color: #244357;
+          letter-spacing: 0;
+          text-align: center; }
+  #main .proiezioni-left .exitpoll-list-tempo li .detail-title div span:nth-child(1):before {
+    content: 'VOTI'; }
+  #main .proiezioni-left .exitpoll-list-tempo li .detail-title div span:nth-child(2):before {
+    content: 'SEGGI'; }
+  #main .proiezioni-left .exitpoll-list-tempo li .detail-title div span:nth-child(3):before {
+    content: 'VOTI'; }
+  #main .proiezioni-left .exitpoll-list-tempo li .detail-title div span:nth-child(4):before {
+    content: 'SEGGI'; }
+  #main .temporeale-left .candidate-list li {
+    padding: 13px 0; }
+  #main .temporeale-left .exitpoll-list-tempo li .detail-title div span {
+    font-family: Montserrat-SemiBold;
+    font-size: 12px;
+    color: #416077;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center;
+    width: 86px; }
+    #main .temporeale-left .exitpoll-list-tempo li .detail-title div span:nth-child(1):before {
+      content: '%'; }
+    #main .temporeale-left .exitpoll-list-tempo li .detail-title div span:nth-child(2):before {
+      content: 'VOTI'; }
+    #main .temporeale-left .exitpoll-list-tempo li .detail-title div span:nth-child(3):before {
+      content: 'SEGGI'; }
+    #main .temporeale-left .exitpoll-list-tempo li .detail-title div span:nth-child(4):before {
+      content: '%'; }
+    #main .temporeale-left .exitpoll-list-tempo li .detail-title div span:nth-child(5):before {
+      content: 'VOTI'; }
+    #main .temporeale-left .exitpoll-list-tempo li .detail-title div span:nth-child(6):before {
+      content: 'SEGGI'; }
+  #main .temporeale-left .exitpoll-list-tempo li ul .title-li .detail-title div span {
+    width: 86px;
+    font-family: Montserrat-SemiBold;
+    font-size: 12px;
+    color: #416077;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center; }
+  #main .temporeale-left .exitpoll-list-tempo li ul li div span {
+    width: 86px;
+    font-family: Montserrat-SemiBold;
+    font-size: 12px;
+    color: #416077;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center; }
+  #main .definitivi-left .results {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    border: 1px solid #416077;
+    border-radius: 23px;
+    width: 125px;
+    height: 28px;
+    font-family: Montserrat-Bold;
+    font-size: 11px;
+    color: #416077; }
+    #main .definitivi-left .results:hover {
+      background: #416077;
+      color: #fff; }
+  #main .definitivi-left .title-exitpoll-table .title-row {
+    -ms-flex-pack: center;
+        justify-content: center;
+    padding: 5px 0;
+    height: auto; }
+    #main .definitivi-left .title-exitpoll-table .title-row span {
+      width: 50%;
+      font-family: Montserrat-Bold;
+      font-size: 18px;
+      color: #416077;
+      letter-spacing: 0;
+      line-height: 15.6px;
+      text-align: center;
+      height: 20px; }
+  #main .definitivi-left .title-exitpoll-table > div {
+    -ms-flex-pack: center;
+        justify-content: center; }
+    #main .definitivi-left .title-exitpoll-table > div div {
+      width: 50%;
+      margin: 20px 0;
+      border-color: #ad9a88; }
+      #main .definitivi-left .title-exitpoll-table > div div:first-child span {
+        padding-left: 35px; }
+      #main .definitivi-left .title-exitpoll-table > div div span {
+        padding-left: 35px; }
+      #main .definitivi-left .title-exitpoll-table > div div .view-more {
+        text-align: right;
+        padding-right: 25px;
+        margin-top: 12px; }
+  #main .definitivi-left .definitivi-column-holder {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    padding-top: 17px;
+    border-top: 1px solid #244357; }
+    #main .definitivi-left .definitivi-column-holder .definitivi-list {
+      width: 50%;
+      padding: 0 15px;
+      border-right: 1px solid #ad9a88; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list:last-child {
+        border: 0; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list > img {
+        margin-bottom: 85px; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list h5 {
+        font-family: Montserrat-Bold;
+        font-size: 11px;
+        color: #1a171b;
+        letter-spacing: 0;
+        text-align: left;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        text-transform: uppercase; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list li img {
+        width: 15px;
+        height: 15px;
+        margin-right: 13px; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list li .view-more {
+        display: block;
+        font-family: Montserrat-Bold;
+        font-size: 13px;
+        color: #356e89;
+        letter-spacing: 0;
+        line-height: 15px;
+        margin: 25px 0;
+        text-align: right; }
+        #main .definitivi-left .definitivi-column-holder .definitivi-list li .view-more:after {
+          content: '';
+          display: inline-block;
+          width: 6px;
+          height: 10px;
+          background: url(../images/arrow-right.png) no-repeat;
+          background-size: contain;
+          margin-left: 10px; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list li .detail-title {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+        padding-bottom: 11px;
+        border-bottom: 1px solid #ad9a88; }
+        #main .definitivi-left .definitivi-column-holder .definitivi-list li .detail-title div {
+          width: 100%;
+          text-align: right; }
+          #main .definitivi-left .definitivi-column-holder .definitivi-list li .detail-title div span {
+            font-family: Montserrat-Regular;
+            font-size: 12px;
+            color: #416077;
+            line-height: 12px;
+            text-align: center;
+            position: relative;
+            margin-left: 16px; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li .detail-title div span:last-child {
+              font-family: Montserrat-Bold; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li .detail-title div span:first-child {
+              margin: 0; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li .detail-title div span:before {
+              content: '';
+              left: 0;
+              right: 0;
+              margin: 0 auto;
+              top: -18px;
+              position: absolute;
+              font-family: Montserrat-Regular;
+              font-size: 11px;
+              color: #ad9a88;
+              line-height: 16px; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li .detail-title div span:nth-child(1):before {
+              content: '%'; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li .detail-title div span:nth-child(2):before {
+              content: 'VOTI'; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li .detail-title div span:nth-child(3):before {
+              text-align: left;
+              left: -15px;
+              content: 'SEGGI'; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list li ul {
+        padding-top: 30px; }
+        #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li {
+          border-bottom: 0;
+          width: 100%;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+          margin-bottom: 20px; }
+          #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li .detail-title {
+            width: 100%;
+            padding-bottom: 4px; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li .detail-title div {
+              margin-bottom: -47px; }
+              #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li .detail-title div span:before {
+                top: -22px; }
+              #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li .detail-title div span:last-child {
+                margin-right: 3px; }
+              #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li .detail-title div .text-hidden {
+                color: #F5E5D5 !important; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li .detail-title p {
+              font-family: Montserrat-Bold;
+              font-size: 12px;
+              color: #244357;
+              line-height: 16px;
+              text-align: left;
+              margin: 0;
+              -ms-flex-negative: 0;
+                  flex-shrink: 0; }
+        #main .definitivi-left .definitivi-column-holder .definitivi-list li ul li {
+          min-height: 35px;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-align: center;
+              align-items: center;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+          padding: 8px 0;
+          border-bottom: 1px solid #ad9a88; }
+          #main .definitivi-left .definitivi-column-holder .definitivi-list li ul li img {
+            width: 15px;
+            height: 15px;
+            margin-right: 13px; }
+          #main .definitivi-left .definitivi-column-holder .definitivi-list li ul li div {
+            width: 100%;
+            text-align: right; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li ul li div span {
+              font-family: Montserrat-Regular;
+              font-size: 12px;
+              color: #416077;
+              line-height: 12px;
+              text-align: center;
+              position: relative;
+              margin-left: 16px; }
+              #main .definitivi-left .definitivi-column-holder .definitivi-list li ul li div span:last-child {
+                font-family: Montserrat-Bold;
+                margin-right: 3px; }
+              #main .definitivi-left .definitivi-column-holder .definitivi-list li ul li div span:first-child {
+                margin: 0; }
+        #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .red-li {
+          margin-top: 25px;
+          border: none;
+          padding: 0; }
+          #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .red-li div span {
+            font-family: Montserrat-Regular;
+            font-size: 12px;
+            color: #416077;
+            line-height: 12px;
+            text-align: center;
+            position: relative;
+            margin-left: 16px; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .red-li div span:first-child {
+              margin: 0; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .red-li div span:before {
+              content: '';
+              left: 0;
+              right: 0;
+              margin: 0 auto;
+              top: -28px;
+              position: absolute;
+              font-family: Montserrat-Regular;
+              font-size: 11px;
+              color: #ad9a88;
+              line-height: 16px; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .red-li div span:nth-child(1):before {
+              content: '%'; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .red-li div span:nth-child(2):before {
+              content: 'VOTI'; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .red-li div span:nth-child(3):before {
+              text-align: left;
+              left: -15px;
+              content: 'SEGGI'; }
+  #main .camera-italia .title-exitpoll {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+    #main .camera-italia .title-exitpoll div {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+    #main .camera-italia .title-exitpoll a {
+      margin-top: 20px; }
+  #main .camera-italia .after-columns-title {
+    margin: 60px 0 40px; }
+    #main .camera-italia .after-columns-title h2 {
+      font-family: Montserrat-Light;
+      font-size: 22px;
+      color: #000000;
+      letter-spacing: 0;
+      line-height: 22px;
+      font-weight: 300; }
+      #main .camera-italia .after-columns-title h2 b {
+        font-size: 22px;
+        color: #356e89;
+        letter-spacing: 0;
+        line-height: 22px;
+        text-align: left;
+        font-weight: 300;
+        font-family: Montserrat-Light; }
+    #main .camera-italia .after-columns-title i {
+      font-family: Montserrat-Light;
+      font-size: 12px;
+      color: #000000;
+      font-style: normal; }
+    #main .camera-italia .after-columns-title b {
+      font-family: Montserrat-Bold;
+      font-size: 11px;
+      color: #416077;
+      letter-spacing: 0;
+      line-height: 15.6px; }
+  #main .camera-italia .title-exitpoll-table {
+    border-top: 1px solid #244357;
+    padding: 18px 0 13px; }
+    #main .camera-italia .title-exitpoll-table p {
+      font-family: Montserrat-Bold;
+      font-size: 13px;
+      color: #244357;
+      letter-spacing: 0;
+      line-height: 15.6px; }
+    #main .camera-italia .title-exitpoll-table span {
+      display: block;
+      font-family: Montserrat-Bold;
+      font-size: 11px;
+      color: #244357;
+      letter-spacing: 0;
+      line-height: 16px;
+      text-align: left; }
+      #main .camera-italia .title-exitpoll-table span i {
+        font-family: Montserrat-Regular;
+        font-size: 11px;
+        color: #1a171b;
+        letter-spacing: 0;
+        line-height: 16px;
+        text-align: right; }
+  #main .camera-italia .form-wrapper p {
+    font-family: Montserrat-Bold;
+    font-size: 13px;
+    color: #244357;
+    letter-spacing: 0;
+    line-height: 15.6px;
+    text-transform: uppercase; }
+  #main .camera-italia .form-wrapper > img {
+    margin: 0 !important; }
+  #main .camera-italia .form-wrapper i {
+    display: block;
+    font-style: normal;
+    font-family: Montserrat-Light;
+    font-size: 12px;
+    color: #ad9a88;
+    margin-bottom: 75px; }
+  #main .camera-italia .form-wrapper form {
+    margin-top: 35px;
+    position: relative; }
+    #main .camera-italia .form-wrapper form input[type="text"] {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      padding-left: 16px;
+      background: #ffffff;
+      border-radius: 28px;
+      width: 100%;
+      height: 36px;
+      font-family: Montserrat-Regular;
+      font-size: 11px;
+      color: #6a6a6a;
+      text-align: left;
+      border: none;
+      outline: none;
+      margin-bottom: 20px; }
+    #main .camera-italia .form-wrapper form input[type="submit"] {
+      width: 17px;
+      height: 16px;
+      background: url(../images/search.png) no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 15px;
+      border: none;
+      outline: none;
+      font-size: 0;
+      cursor: pointer; }
+    #main .camera-italia .form-wrapper form .selecter {
+      margin-top: 20px; }
+  #main .camera-italia .form-wrapper .world-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center; }
+    #main .camera-italia .form-wrapper .world-list img {
+      margin-right: 17px;
+      max-width: 151px;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
+    #main .camera-italia .form-wrapper .world-list ul {
+      width: 100%; }
+      #main .camera-italia .form-wrapper .world-list ul li {
+        display: -ms-flexbox;
+        display: flex;
+        min-height: 36px;
+        -ms-flex-align: center;
+            align-items: center;
+        border-bottom: 1px solid #ad9a88; }
+        #main .camera-italia .form-wrapper .world-list ul li:last-child {
+          border: 0; }
+        #main .camera-italia .form-wrapper .world-list ul li a {
+          font-family: Montserrat-Bold;
+          font-size: 11px;
+          color: #416077;
+          letter-spacing: 0;
+          line-height: 16px; }
+  #main .camera-italia .camera-list-tempo {
+    position: relative;
+    border: 0; }
+    #main .camera-italia .camera-list-tempo .result-link {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: -40px;
+      font-family: Montserrat-Bold;
+      font-size: 13px;
+      color: #356e89;
+      letter-spacing: 0;
+      line-height: 15px; }
+      #main .camera-italia .camera-list-tempo .result-link:after {
+        content: '';
+        display: inline-block;
+        width: 6px;
+        height: 10px;
+        background: url(../images/arrow-right.png) no-repeat;
+        background-size: contain;
+        margin-left: 10px;
+        transform: rotate(90deg); }
+    #main .camera-italia .camera-list-tempo li .detail-title div span {
+      font-family: Montserrat-Bold;
+      font-size: 12px;
+      color: #416077;
+      letter-spacing: 0;
+      line-height: 16px;
+      text-align: left; }
+      #main .camera-italia .camera-list-tempo li .detail-title div span:nth-child(1):before {
+        content: '%'; }
+      #main .camera-italia .camera-list-tempo li .detail-title div span:nth-child(2):before {
+        content: 'VOTI'; }
+      #main .camera-italia .camera-list-tempo li .detail-title div span:nth-child(3):before {
+        content: 'SECCI'; }
+      #main .camera-italia .camera-list-tempo li .detail-title div span:last-child {
+        font-family: Montserrat-Regular !important;
+        font-size: 30px;
+        color: #416077;
+        letter-spacing: 0;
+        line-height: 16px;
+        text-align: center; }
+    #main .camera-italia .camera-list-tempo li ul .title-li .detail-title div span {
+      font-family: Montserrat-Bold;
+      font-size: 12px;
+      color: #416077;
+      letter-spacing: 0;
+      line-height: 16px;
+      text-align: left; }
+      #main .camera-italia .camera-list-tempo li ul .title-li .detail-title div span:last-child {
+        font-family: Montserrat-Regular !important;
+        font-size: 30px;
+        color: #416077;
+        letter-spacing: 0;
+        line-height: 16px;
+        text-align: center; }
+    #main .camera-italia .camera-list-tempo li ul li {
+      padding: 12px 0px; }
+      #main .camera-italia .camera-list-tempo li ul li div span {
+        font-family: Montserrat-Bold;
+        font-size: 12px;
+        color: #416077;
+        letter-spacing: 0;
+        line-height: 16px;
+        text-align: left; }
+        #main .camera-italia .camera-list-tempo li ul li div span:nth-child(3) {
+          font-family: Montserrat-Regular !important;
+          font-size: 30px !important;
+          color: #416077 !important;
+          letter-spacing: 0;
+          line-height: 16px;
+          text-align: center; }
+  #main .camera-regione .after-columns-title {
+    margin: 24px 0; }
+  #main .camera-regione .camera-list-tempo {
+    margin-bottom: 0; }
+    #main .camera-regione .camera-list-tempo > li {
+      margin-bottom: 0; }
+  #main .camera-regione .to-top {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    border: 1px solid #416077;
+    border-radius: 23px;
+    width: 85px;
+    height: 28px;
+    font-family: Montserrat-Bold;
+    font-size: 11px;
+    color: #416077;
+    margin: 0 0 0 auto; }
+    #main .camera-regione .to-top:before {
+      content: '';
+      display: inline-block;
+      width: 6px;
+      height: 10px;
+      background: url(../images/arrow-right.png) no-repeat;
+      background-size: contain;
+      margin-right: 10px;
+      transform: rotate(-90deg); }
+  #main .camera-regione .title-exitpoll-table {
+    border-top: 1px solid #244357;
+    padding: 18px 0 13px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+        align-items: flex-start;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+    #main .camera-regione .title-exitpoll-table p {
+      font-family: Montserrat-Bold;
+      font-size: 13px;
+      color: #244357;
+      letter-spacing: 0;
+      line-height: 15.6px;
+      margin: 0; }
+    #main .camera-regione .title-exitpoll-table div {
+      display: block;
+      min-height: 52px; }
+      #main .camera-regione .title-exitpoll-table div span {
+        display: block;
+        font-family: Montserrat-Bold;
+        font-size: 11px;
+        color: #244357;
+        letter-spacing: 0;
+        line-height: 16px;
+        text-align: left; }
+        #main .camera-regione .title-exitpoll-table div span i {
+          font-family: Montserrat-Regular;
+          font-size: 11px;
+          color: #1a171b;
+          letter-spacing: 0;
+          line-height: 16px;
+          text-align: right; }
+  #main .camera-regione .regione-form {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    #main .camera-regione .regione-form > div {
+      width: 50%;
+      padding-right: 15px; }
+      #main .camera-regione .regione-form > div p {
+        font-family: Montserrat-Bold;
+        font-size: 13px;
+        color: #244357;
+        letter-spacing: 0;
+        line-height: 15.6px; }
+    #main .camera-regione .regione-form .selects-block {
+      width: 100%;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+      #main .camera-regione .regione-form .selects-block .selecter {
+        margin-left: 30px; }
+    #main .camera-regione .regione-form form {
+      padding-left: 15px;
+      width: 50%;
+      position: relative; }
+      #main .camera-regione .regione-form form .input-holder {
+        position: relative;
+        width: 100%; }
+        #main .camera-regione .regione-form form .input-holder input[type="text"] {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-align: center;
+              align-items: center;
+          padding-left: 16px;
+          background: #ffffff;
+          border-radius: 28px;
+          width: 100%;
+          height: 36px;
+          font-family: Montserrat-Regular;
+          font-size: 11px;
+          color: #6a6a6a;
+          text-align: left;
+          border: none;
+          outline: none;
+          margin-bottom: 20px; }
+        #main .camera-regione .regione-form form .input-holder input[type="submit"] {
+          width: 17px;
+          height: 16px;
+          background: url(../images/search.png) no-repeat;
+          background-size: contain;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: 15px;
+          border: none;
+          outline: none;
+          font-size: 0;
+          cursor: pointer; }
+      #main .camera-regione .regione-form form i {
+        color: #ad9a88;
+        font-family: Montserrat-Light;
+        font-size: 12px; }
+      #main .camera-regione .regione-form form .select-holder {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+        margin-bottom: 225px; }
+        #main .camera-regione .regione-form form .select-holder span {
+          display: block;
+          width: 100%;
+          margin-left: 30px;
+          font-family: Montserrat-Regular;
+          font-size: 13px;
+          color: #000000;
+          letter-spacing: 0;
+          line-height: 32.5px;
+          text-align: left;
+          border-bottom: 1px solid #ad9a88; }
+          #main .camera-regione .regione-form form .select-holder span:first-child {
+            margin-left: 0; }
   #main aside {
     max-width: 300px;
     width: 100%; }
@@ -1176,6 +2098,149 @@ a {
           right: 0;
           top: 10px;
           margin: 0; }
+  #main .exitpoll-aside ul > p {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    font-family: Montserrat-Bold;
+    font-size: 13px;
+    color: #244357;
+    letter-spacing: 0;
+    line-height: 15.6px;
+    margin: 11px 0 0;
+    padding-bottom: 11px;
+    border-bottom: 2px solid #dfcebd; }
+    #main .exitpoll-aside ul > p img {
+      width: 43px;
+      height: 40px;
+      margin-right: 5px; }
+  #main .exitpoll-aside ul .title-li {
+    padding: 5px 0; }
+    #main .exitpoll-aside ul .title-li > p {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      font-family: Montserrat-Bold;
+      font-size: 13px;
+      color: #244357;
+      letter-spacing: 0;
+      line-height: 15.6px;
+      margin: 0; }
+      #main .exitpoll-aside ul .title-li > p img {
+        width: 43px;
+        height: 40px;
+        margin-right: 5px; }
+    #main .exitpoll-aside ul .title-li div span {
+      padding: 0px 25px; }
+  #main .exitpoll-aside ul li p {
+    font-family: Montserrat-Bold;
+    font-size: 12px;
+    color: #356e89;
+    letter-spacing: 0;
+    line-height: 12px;
+    text-align: left;
+    text-transform: none; }
+    #main .exitpoll-aside ul li p span {
+      text-transform: none;
+      display: block;
+      font-family: Montserrat-Regular;
+      font-size: 11px;
+      color: #1a171b;
+      letter-spacing: 0;
+      line-height: 14px;
+      text-align: left; }
+  #main .exitpoll-aside ul li div span {
+    padding: 0 19px;
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 12px;
+    text-align: center; }
+  #main .exitpoll-aside .retrospettivi-list {
+    border-bottom: 2px solid #244357; }
+    #main .exitpoll-aside .retrospettivi-list .title-li p {
+      font-family: Montserrat-Bold;
+      font-size: 13px;
+      color: #244357;
+      letter-spacing: 0;
+      line-height: 16px;
+      text-transform: uppercase; }
+    #main .exitpoll-aside .retrospettivi-list .title-li div span {
+      font-family: Montserrat-Regular;
+      font-size: 11px;
+      color: #ad9a88;
+      letter-spacing: 0;
+      line-height: 12px;
+      text-align: center;
+      padding: 0 17px; }
+    #main .exitpoll-aside .retrospettivi-list li p {
+      font-family: Montserrat-Bold;
+      font-size: 11px;
+      color: #356e89;
+      letter-spacing: 0;
+      line-height: 12px;
+      text-align: left; }
+    #main .exitpoll-aside .retrospettivi-list li span {
+      padding: 0 26px; }
+  #main .camera-provincia .camera-list-tempo li .detail-title p {
+    max-width: 230px;
+    width: 100%;
+    margin-right: 40px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0; }
+  #main .camera-provincia .camera-list-tempo li .detail-title .image-title-holder {
+    max-width: 230px;
+    width: 100%;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-align: center;
+        align-items: center;
+    margin-right: 40px;
+    -ms-flex-pack: start;
+        justify-content: flex-start; }
+  #main .camera-provincia .camera-list-tempo li .detail-title div span {
+    width: 89px; }
+  #main .camera-provincia .camera-list-tempo li ul li div span {
+    width: 89px; }
+  #main .camera-provincia .camera-list-tempo li ul li .image-title-holder {
+    max-width: 230px;
+    width: 100%;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-right: 40px;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: start;
+        justify-content: flex-start; }
+  #main .camera-provincia .camera-list-tempo .text-hidden {
+    color: #F5E5D5 !important; }
+  #main .provincia-info {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: center;
+        justify-content: center;
+    text-decoration: none;
+    -ms-flex-direction: column;
+        flex-direction: column; }
+    #main .provincia-info > span {
+      display: block !important;
+      margin-bottom: 5px;
+      width: 100%;
+      font-family: Montserrat-Regular !important;
+      font-size: 13px !important;
+      color: #000 !important;
+      letter-spacing: 0;
+      width: auto !important;
+      padding: 0 !important;
+      text-align: left !important;
+      text-transform: initial !important; }
+      #main .provincia-info > span:before {
+        display: none !important; }
 
 @media (max-width: 1199px) {
   .a-masthead {
@@ -1273,7 +2338,268 @@ a {
         #main .left-part .candidate-list-detail > li ul li {
           min-height: 49px;
           font-size: 12px;
-          text-transform: uppercase; } }
+          text-transform: uppercase; }
+    #main .exitpoll-left .title-exitpoll h1 {
+      font-size: 26px;
+      color: #1a171b;
+      text-align: left; }
+      #main .exitpoll-left .title-exitpoll h1 i {
+        font-size: 16px; }
+    #main .exitpoll-left .title-exitpoll span {
+      font-family: Montserrat-Regular;
+      font-size: 11px;
+      color: #1a171b;
+      text-align: left;
+      margin-bottom: 30px;
+      display: block; }
+    #main .exitpoll-left .title-exitpoll p {
+      font-size: 12px; }
+    #main .exitpoll-left .title-exitpoll-table .title-row span {
+      padding: 0 85px; }
+    #main .exitpoll-left .title-exitpoll-table > div {
+      min-height: 95px; }
+      #main .exitpoll-left .title-exitpoll-table > div div {
+        min-width: 217px; }
+    #main .exitpoll-left .exitpoll-list-tempo li {
+      padding: 10px 0; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title img {
+        margin: 0 15px 0 0; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title h5 {
+        font-size: 14px; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span {
+        padding: 0 10px;
+        font-size: 13px;
+        width: 108px; }
+        #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(1) {
+          font-size: 11px; }
+        #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(3) {
+          font-size: 11px; }
+      #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div span {
+        width: 108px;
+        padding: 0 10px;
+        font-size: 13px; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div span:nth-child(1) {
+          font-size: 11px; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div span:nth-child(3) {
+          font-size: 11px; }
+      #main .exitpoll-left .exitpoll-list-tempo li ul li h5 {
+        font-size: 14px; }
+      #main .exitpoll-left .exitpoll-list-tempo li ul li div span, #main .exitpoll-left .exitpoll-list-tempo li ul li div span:last-child {
+        padding: 0 10px;
+        font-size: 13px;
+        width: 108px; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul li div span:nth-child(1), #main .exitpoll-left .exitpoll-list-tempo li ul li div span:last-child:nth-child(1) {
+          font-size: 11px; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul li div span:nth-child(3), #main .exitpoll-left .exitpoll-list-tempo li ul li div span:last-child:nth-child(3) {
+          font-size: 11px; }
+    #main .temporeale-left .candidate-list li {
+      padding: 8px 0; }
+    #main .temporeale-left .exitpoll-list-tempo li .detail-title div span {
+      width: 73px;
+      font-size: 11px;
+      height: 15px; }
+    #main .temporeale-left .exitpoll-list-tempo li ul .title-li .detail-title div span {
+      width: 73px;
+      font-size: 11px;
+      height: 15px; }
+    #main .temporeale-left .exitpoll-list-tempo li ul li div span {
+      width: 73px;
+      font-size: 11px;
+      height: 15px; }
+      #main .temporeale-left .exitpoll-list-tempo li ul li div span:last-child {
+        width: 73px;
+        font-size: 11px;
+        height: 15px; }
+    #main .definitivi-left .title-exitpoll-table .title-row span {
+      font-size: 13.84px;
+      line-height: 11.99px;
+      height: 15px; }
+    #main .definitivi-left .title-exitpoll-table > div {
+      -ms-flex-pack: center;
+          justify-content: center; }
+      #main .definitivi-left .title-exitpoll-table > div div {
+        margin: 17px 0; }
+        #main .definitivi-left .title-exitpoll-table > div div:first-child span {
+          padding-left: 0px; }
+        #main .definitivi-left .title-exitpoll-table > div div span {
+          padding-left: 13px; }
+        #main .definitivi-left .title-exitpoll-table > div div .view-more {
+          padding-right: 14px;
+          margin-top: 6px; }
+    #main .definitivi-left .definitivi-column-holder {
+      padding-top: 14px; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list > img {
+        margin-bottom: 55px; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list li img {
+        width: 12px;
+        height: 12px;
+        margin-right: 8px; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list li .view-more {
+        font-size: 12px;
+        margin: 22px 0; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list li .detail-title {
+        padding-bottom: 7px; }
+        #main .definitivi-left .definitivi-column-holder .definitivi-list li .detail-title div span {
+          font-size: 11px;
+          margin-left: 15px; }
+          #main .definitivi-left .definitivi-column-holder .definitivi-list li .detail-title div span:before {
+            top: -16px;
+            font-size: 11px;
+            line-height: 12px; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li {
+        margin-bottom: 20px; }
+        #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li .detail-title {
+          width: 100%;
+          padding-bottom: 4px; }
+          #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li .detail-title div {
+            margin-bottom: -47px; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li .detail-title div span:before {
+              top: -22px; }
+            #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li .detail-title div span:last-child {
+              margin-right: 3px; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list li ul li img {
+        width: 12px;
+        height: 12px;
+        margin-right: 8px; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list li ul li div span {
+        font-size: 11px;
+        color: #416077;
+        margin-left: 15px; }
+        #main .definitivi-left .definitivi-column-holder .definitivi-list li ul li div span:first-child {
+          margin: 0; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .red-li {
+        margin-top: 25px;
+        border: none;
+        padding: 0; }
+        #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .red-li div span {
+          font-family: Montserrat-Regular;
+          font-size: 12px;
+          color: #416077;
+          line-height: 12px;
+          text-align: center;
+          position: relative;
+          margin-left: 16px; }
+          #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .red-li div span:before {
+            content: '';
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            top: -28px;
+            position: absolute;
+            font-family: Montserrat-Regular;
+            font-size: 11px;
+            color: #ad9a88;
+            line-height: 16px; }
+          #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .red-li div span:nth-child(1):before {
+            content: '%'; }
+          #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .red-li div span:nth-child(2):before {
+            content: 'VOTI'; }
+          #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .red-li div span:nth-child(3):before {
+            text-align: left;
+            left: -15px;
+            content: 'SEGGI'; }
+    #main .camera-italia .after-columns-title {
+      margin: 50px 0 24px; }
+      #main .camera-italia .after-columns-title h2 {
+        font-size: 20px; }
+      #main .camera-italia .after-columns-title i {
+        font-size: 11px; }
+    #main .camera-italia .form-wrapper p {
+      font-size: 12px; }
+    #main .camera-italia .form-wrapper i {
+      font-size: 10px;
+      margin-bottom: 35px; }
+    #main .camera-italia .form-wrapper form {
+      margin-top: 15px; }
+      #main .camera-italia .form-wrapper form input[type="text"] {
+        margin-bottom: 20px; }
+    #main .camera-italia .form-wrapper .world-list img {
+      margin-right: 8px;
+      max-width: 104px; }
+    #main .camera-italia .form-wrapper .world-list ul li a {
+      font-size: 10px; }
+    #main .camera-italia .camera-list-tempo li .detail-title div span {
+      font-size: 11px; }
+      #main .camera-italia .camera-list-tempo li .detail-title div span:last-child {
+        font-family: Montserrat-Regular !important;
+        font-size: 20px; }
+    #main .camera-italia .camera-list-tempo li ul .title-li .detail-title div span {
+      font-family: Montserrat-Bold;
+      font-size: 11px; }
+      #main .camera-italia .camera-list-tempo li ul .title-li .detail-title div span:last-child {
+        font-family: Montserrat-Regular !important;
+        font-size: 20px; }
+    #main .camera-italia .camera-list-tempo li ul li {
+      padding: 10px 0px; }
+      #main .camera-italia .camera-list-tempo li ul li div span {
+        font-family: Montserrat-Bold;
+        font-size: 11px; }
+        #main .camera-italia .camera-list-tempo li ul li div span:nth-child(3) {
+          font-family: Montserrat-Regular !important;
+          font-size: 20px !important; }
+    #main .camera-provincia .camera-list-tempo .title-li .detail-title div span {
+      width: 68px !important; }
+      #main .camera-provincia .camera-list-tempo .title-li .detail-title div span:last-child {
+        width: 68px; }
+    #main .camera-provincia .camera-list-tempo li .detail-title p {
+      max-width: 170px;
+      width: 100%;
+      margin-right: 20px;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
+    #main .camera-provincia .camera-list-tempo li .detail-title .image-title-holder {
+      max-width: 170px;
+      width: 100%;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      -ms-flex-align: center;
+          align-items: center;
+      margin-right: 20px;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+    #main .camera-provincia .camera-list-tempo li .detail-title div span {
+      width: 68px; }
+      #main .camera-provincia .camera-list-tempo li .detail-title div span:last-child {
+        width: 68px; }
+    #main .camera-provincia .camera-list-tempo li ul li .image-title-holder {
+      max-width: 170px;
+      width: 100%;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      margin-right: 20px;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+    #main .camera-provincia .camera-list-tempo li ul li div span {
+      width: 68px; }
+      #main .camera-provincia .camera-list-tempo li ul li div span:last-child {
+        width: 68px; }
+    #main .camera-provincia .camera-list-tempo .text-hidden {
+      color: #F5E5D5 !important; }
+    #main .provincia-info {
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      -ms-flex-pack: center;
+          justify-content: center;
+      text-decoration: none;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+      #main .provincia-info > span {
+        display: block !important;
+        margin-bottom: 5px;
+        width: 100%;
+        font-family: Montserrat-Regular !important;
+        font-size: 11px !important;
+        color: #000 !important;
+        letter-spacing: 0;
+        width: auto !important;
+        padding: 0 !important;
+        text-align: left !important;
+        text-transform: initial !important; }
+        #main .provincia-info > span:before {
+          display: none !important; } }
 
 @media (max-width: 768px) {
   .mobile-only {
@@ -1309,6 +2635,46 @@ a {
       -ms-flex-negative: 1;
           flex-shrink: 1;
       margin: 0 auto; }
+    #main .definitivi-left .title-exitpoll-table > div div span {
+      padding-left: 40px; }
+    #main .definitivi-left .definitivi-column-holder {
+      padding-top: 14px; }
+      #main .definitivi-left .definitivi-column-holder .definitivi-list {
+        border: 0; }
+        #main .definitivi-left .definitivi-column-holder .definitivi-list > img {
+          margin-bottom: 55px; }
+        #main .definitivi-left .definitivi-column-holder .definitivi-list li img {
+          width: 13px;
+          height: 13px;
+          margin-right: 10px; }
+        #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li .detail-title p {
+          font-size: 13px; }
+        #main .definitivi-left .definitivi-column-holder .definitivi-list li ul li img {
+          width: 13px;
+          height: 13px;
+          margin-right: 8px; }
+    #main .camera-italia .title-exitpoll a {
+      margin-top: 6px;
+      margin-right: 150px; }
+    #main .camera-italia .definitivi-column-holder .definitivi-list {
+      border-right: 1px solid #ad9a88; }
+    #main .camera-regione .after-columns-title {
+      margin: 24px 0; }
+    #main .camera-regione .camera-list-tempo {
+      margin-bottom: 0; }
+      #main .camera-regione .camera-list-tempo > li {
+        margin-bottom: 0; }
+      #main .camera-regione .camera-list-tempo .result-link {
+        font-size: 12px; }
+    #main .camera-regione .select-holder {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      margin-bottom: 95px !important; }
+      #main .camera-regione .select-holder span {
+        width: 100%;
+        margin: 0 0 10px !important; }
+    #main .camera-regione .to-top {
+      margin-bottom: 40px; }
     #main aside {
       max-width: 714px; }
       #main aside .aside-banner {
